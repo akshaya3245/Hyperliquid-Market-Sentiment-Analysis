@@ -10,12 +10,14 @@ The objective is to identify statistically supported behavioral patterns that ca
 
 ## Dataset
 
-### 1. Bitcoin Market Sentiment
+### 1. Market Sentiment Data
 
 - Daily Fear & Greed Index
 - Columns:
-  - Date
+  - Timestamp
+  - Value
   - Classification
+  - Date
 
 ### 2. Hyperliquid Historical Trader Data
 
@@ -24,12 +26,20 @@ Contains:
 - Account
 - Coin
 - Execution Price
-- Position Size
+- Size Tokens
+- Size USD
 - Side
-- Timestamp
+- Timestamp IST
+- Start Position
+- Direction
 - Closed PnL
-- Fees
-- Transaction details
+- Transaction Hash
+- Order ID
+- Crossed
+- Fee
+- Trade ID
+- Timestamp
+  
 
 ---
 
@@ -80,7 +90,7 @@ Contains:
 ## Installation
 
 ```bash
-git clone <repository-link>
+https://github.com/akshaya3245/Hyperliquid-Market-Sentiment-Analysis
 
 cd Hyperliquid-Market-Sentiment-Analysis
 
