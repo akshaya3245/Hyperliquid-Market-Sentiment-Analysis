@@ -1,4 +1,4 @@
-# Hyperliquid-Market-Sentiment-Analysis
+# Crypto-Trading-Sentiment-Analysis
 
 ## Project Overview
 
